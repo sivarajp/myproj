@@ -1,4 +1,4 @@
-BuildTBS {
+BuildTBSDeploy {
    namespace = "account"
    platform = "python"
 }
