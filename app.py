@@ -1,4 +1,5 @@
 #author: Aniket Mukherjee
+from commonlib import greeting
 from flask import Flask
 import emoji
 import pyjokes
@@ -7,6 +8,7 @@ app=Flask(__name__)
 
 @app.route('/')
 def hello():
+  greeting.greeting("Git Submodule")
   return pyjokes.get_joke()
   
 
