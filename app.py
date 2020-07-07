@@ -3,7 +3,7 @@ from flask import Flask
 import emoji
 import pyjokes
 import commonlib
-from commonlib import greeting
+from commonlib.commonlib import greeting
 
 app=Flask(__name__)
 
